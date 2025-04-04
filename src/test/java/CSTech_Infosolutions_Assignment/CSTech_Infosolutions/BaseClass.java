@@ -25,10 +25,10 @@ public class BaseClass {
 	        driver.get(url);
 	    }
 	    
-	    @AfterClass
+	/*    @AfterClass
 	    public void tearDown() {
 	        if (driver != null) {
 	            driver.quit();
 	        }
-	    }
+	    }   */
 }

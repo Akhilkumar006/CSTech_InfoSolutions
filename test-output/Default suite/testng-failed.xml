@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CSTech_Infosolutions_Assignment.CSTech_Infosolutions.RegistrationTest">
+      <class name="CSTech_Infosolutions_Assignment.CSTech_Infosolutions.FullSetUpTest">
         <methods>
-          <include name="verifyUserRegistrationFlow" invocation-numbers="0"/>
-          <include name="setupTest"/>
           <include name="setup"/>
-          <include name="tearDown"/>
+          <include name="setupTest"/>
+          <include name="testFlow"/>
         </methods>
-      </class> <!-- CSTech_Infosolutions_Assignment.CSTech_Infosolutions.RegistrationTest -->
+      </class> <!-- CSTech_Infosolutions_Assignment.CSTech_Infosolutions.FullSetUpTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
